@@ -1,1 +1,38 @@
+h1{
+  color: green;
+  font-family: helvetica;
+  font-size: 72px;
+  text-align: center;
+}
 
+p{
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 1.25rem; 
+}
+
+figure{
+  border: 1px solid black;
+  padding: 35px;
+  display: inline-block;
+  width: 400px;
+  margin: 0;
+}
+
+figure img{
+  max-width: 100%;
+  height: auto;
+}
+
+figure p{
+  text-align: left;
+  margin: 0;
+}
+
+strong{
+  color:blue;
+}
+.figure-container{
+  display: flex;
+  justify-content:center;
+}
