@@ -45,8 +45,7 @@ ul li a:hover{
 }
 
 ul {
-  /* This is the parent of the items */
-  text-align: center; /* Horizontally centers the inline-level children */
+  text-align: center; 
 }
 
 ul li {
