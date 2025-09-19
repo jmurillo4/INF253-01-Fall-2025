@@ -1,5 +1,5 @@
 h1{
-  color: green;
+  color: #d1c32e;
   font-family: helvetica;
   font-size: 72px;
   text-align: center;
@@ -30,9 +30,26 @@ figure p{
 }
 
 strong{
-  color:blue;
+  color:#9f0df2;
 }
 .figure-container{
   display: flex;
   justify-content:center;
+}
+ul li a{
+  font-weight: bold;
+}
+ul li a:hover{
+  text-decoration: underline;
+  color: #8A6F90;
+}
+
+ul {
+  /* This is the parent of the items */
+  text-align: center; /* Horizontally centers the inline-level children */
+}
+
+ul li {
+  display: inline-block;
+  padding: 40px;
 }
