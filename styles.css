@@ -1,5 +1,5 @@
 h1{
-  color: #FFF800;
+  color: #BDD02F;
   font-family: helvetica;
   font-size: 72px;
   text-align: center;
@@ -44,7 +44,7 @@ ul li a{
 }
 ul li a:hover{
   text-decoration: underline;
-  color: #8A6F90;
+  color: #422FD0;
 }
 
 ul {
