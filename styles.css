@@ -1,5 +1,5 @@
 h1{
-  color: #F5FF00;
+  color: #4E0080;
   font-family: helvetica;
   font-size: 72px;
   text-align: center;
@@ -33,19 +33,19 @@ figure p{
 }
 
 strong{
-  color:#F5FF00;
+  color:#4E0080;
 }
 .figure-container{
   display: flex;
   justify-content:center;
 }
 ul li a{
-  color: #F5FF00;
+  color: #4E0080;
   font-weight: bold;
 }
 ul li a:hover{
   text-decoration: underline;
-  color: #422FD0;
+  color: #E6BFFF;
 }
 
 ul {
@@ -63,7 +63,7 @@ ul li {
   margin: 0 auto;
 }
 .skip-container a{
-  color: #F5FF00;
+  color: #4E0080;
   padding: 0 20px;
   margin: 5px;
 }
