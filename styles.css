@@ -1,8 +1,11 @@
 h1{
-  color: #d1c32e;
+  color: #FFF800;
   font-family: helvetica;
   font-size: 72px;
   text-align: center;
+}
+body {
+  background-color: #877879;
 }
 
 p{
