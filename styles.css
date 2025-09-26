@@ -57,5 +57,11 @@ ul li {
 }
 
 .skip-container{
-  
+  display: block; 
+  text-align: center;
+  margin: 0 auto;
+}
+.skip-container a{
+  padding: 0 20px;
+  margin: 5px;
 }
