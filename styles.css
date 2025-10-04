@@ -1,3 +1,4 @@
+/* --- GLOBAL STYLES & TYPOGRAPHY --- */
 body {
   background-color: #DCD3EA;
   font-family: Arial, sans-serif;
@@ -10,6 +11,7 @@ strong, ul li a, .skip-container a {
   font-weight: bold;
 }
 
+/* --- HERO SECTION (Figure Container 1) --- */
 .figure-container {
   display: block;
   width: 100%;
@@ -36,10 +38,11 @@ h1 {
 }
 
 .figure-container figure img {
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
 }
 
+/* --- GENERAL CONTENT & TEXT STYLES --- */
 p {
   text-align: left;
   line-height: 1.6;
@@ -48,6 +51,15 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
+}
+.figure-container p{
+  text-align: center;
+}
+.article-content{
+  display: block;
+}
+.article-content p{
+  text-align: center;
 }
 
 .figure-content2 {
@@ -84,6 +96,9 @@ p {
 
 .figure-content2 figure img {
     max-width: 100%;
+}
+.text-content h2{
+  color: #4E0080;
 }
 
 
