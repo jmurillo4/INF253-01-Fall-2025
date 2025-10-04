@@ -38,7 +38,7 @@ h1 {
 }
 
 .figure-container figure img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
