@@ -55,12 +55,6 @@ p {
 .figure-container p{
   text-align: center;
 }
-.article-content{
-  display: block;
-}
-.article-content p{
-  text-align: center;
-}
 
 .figure-content2 {
   background-color: #FFD700;
