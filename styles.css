@@ -11,6 +11,11 @@ strong, ul li a, .skip-container a {
   font-weight: bold;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 /* --- HERO SECTION (Figure Container 1) --- */
 .figure-container {
   display: block;
@@ -91,6 +96,7 @@ p {
 .figure-content2 figure img {
     max-width: 100%;
 }
+
 .text-content h2{
   color: #4E0080;
 }
