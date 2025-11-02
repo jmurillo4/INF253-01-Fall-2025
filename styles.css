@@ -54,6 +54,40 @@ h1 {
   }
 }
 
+/* --- GRID LAYOUT FOR MULTI-COLUMN CONTENT (New Section) --- */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  background-color: #E6E0F0; 
+  border-radius: 8px;
+}
+
+@media all and (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.grid-container div img {
+  margin-bottom: 15px;
+  max-width: 80%; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (min-width: 768px) {
+  .grid-container div img {
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+}
+/* --- END GRID LAYOUT --- */
+
 
 
 /* --- GENERAL CONTENT & TEXT STYLES --- */
