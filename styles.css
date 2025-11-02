@@ -11,7 +11,10 @@ strong, ul li a, .skip-container a {
   font-weight: bold;
 }
 
-
+img{
+  width: 100%;
+  height: auto;
+}
 
 /* --- HERO SECTION (Figure Container 1) --- */
 .figure-container {
@@ -39,10 +42,14 @@ h1 {
   text-align: center;
 }
 
-.figure-container figure img {
-  max-width: 50%;
-  height: auto;
+@media all and (min-width: 768px){
+  .figure-container figure img {
+    max-width: 50%;
+    height: auto;
+  }
 }
+
+
 
 /* --- GENERAL CONTENT & TEXT STYLES --- */
 p {
@@ -90,9 +97,12 @@ p {
   order: 2;
 }
 
-.figure-content2 figure img {
-    max-width: 100%;
+@media all and (min-width: 768px){
+  .figure-content2 figure img {
+    width: 100%;
+  }
 }
+
 
 .text-content h2{
   color: #4E0080;
