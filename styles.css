@@ -14,10 +14,10 @@ strong, ul li a, .skip-container a {
 img{
   width: 100%;
   height: auto;
+  /* FIX: Ensure image never overflows its container */
   max-width: 100%;
 }
 
-/* --- HERO SECTION (Figure Container 1) --- */
 .figure-container {
   display: block;
   width: 100%;
@@ -43,6 +43,27 @@ h1 {
   text-align: center;
 }
 
+header{
+  display:block;
+  border: 1px solid black;
+}
+#message{
+  display: block;
+  width: 20%;
+  background:  #FFD700;
+  border: 1px solid black;
+  padding: 20px 40px;
+  margin: 12px auto;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity 2s ease;
+  color: #333333;
+}
+#message.here{
+  opacity: 0;
+  height: 0;
+}
+
 @media all and (min-width: 768px){
   h1 {
     font-size: 72px;
@@ -54,7 +75,6 @@ h1 {
   }
 }
 
-/* --- GRID LAYOUT FOR MULTI-COLUMN CONTENT (New Section) --- */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -68,12 +88,14 @@ h1 {
 
 @media all and (min-width: 992px) {
   .grid-container {
+    /* Desktop: three equal columns */
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .grid-container div img {
   margin-bottom: 15px;
+  
   max-width: 80%; 
   display: block; 
   margin-left: auto;
@@ -82,15 +104,14 @@ h1 {
 
 @media all and (min-width: 768px) {
   .grid-container div img {
+   
     max-width: 60%;
     margin-bottom: 20px;
   }
 }
-/* --- END GRID LAYOUT --- */
 
 
 
-/* --- GENERAL CONTENT & TEXT STYLES --- */
 p {
   text-align: left;
   line-height: 1.6;
