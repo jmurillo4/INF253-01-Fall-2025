@@ -48,20 +48,31 @@ header{
   border: 1px solid black;
 }
 #message{
-  display: block;
-  width: 20%;
-  background:  #FFD700;
-  border: 1px solid black;
-  padding: 20px 40px;
-  margin: 12px auto;
-  border-radius: 4px;
-  opacity: 1;
-  transition: opacity 2s ease;
-  color: #333333;
+  display: block;
+  width: 20%;
+  background: #4E0080; 
+  color: white;      
+  border: 1px solid black;
+  padding: 20px 40px;
+  margin: 12px auto; 
+  border-radius: 4px;
+  text-align: center; 
 }
-#message.here{
-  opacity: 0;
-  height: 0;
+
+#message #denounce-button {
+    background: #FFD700;
+    color: #4E0080; 
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.denounced {
+    background-color: green !important; 
+    color: white !important;
+    border-color: #A0FFA0 !important;
 }
 
 @media all and (min-width: 768px){
