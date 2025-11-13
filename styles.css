@@ -47,16 +47,19 @@ header{
   display:block;
   border: 1px solid black;
 }
+
+
+
 #message{
-  display: block;
-  width: 20%;
-  background: #4E0080; 
-  color: white;      
-  border: 1px solid black;
-  padding: 20px 40px;
-  margin: 12px auto; 
-  border-radius: 4px;
-  text-align: center; 
+  display: block;
+  width: 20%;
+  background: #4E0080; 
+  color: white;
+  border: 1px solid black;
+  padding: 20px 40px;
+  margin: 12px auto;
+  border-radius: 4px;
+  text-align: center;
 }
 
 #message #denounce-button {
