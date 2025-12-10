@@ -160,9 +160,10 @@ footer a:hover {
     height: auto;
   }
 
-  header nav {
+   header nav {
     flex-direction: row; 
     justify-content: center;
+    align-items:center;
     gap: 20px;            
   }
 }
